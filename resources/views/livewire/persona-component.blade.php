@@ -23,8 +23,8 @@
     <table class="table table-bordered">
       <thead>
         <tr>
-          <th>Id</th>
-          <th>Nombres</th>
+          <th wire:click="ordenar('id')" style="cursor:pointer">Id</th>
+          <th wire:click="ordenar('nombres')" style="cursor:pointer">Nombres</th>
           <th>Email</th>
           <th>Pais</th>
           <th>Ciudad</th>
